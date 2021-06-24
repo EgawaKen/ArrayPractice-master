@@ -70,39 +70,39 @@ namespace ArrayPractice
 
             if (label2.Left < 0)
             {
-                vxx = Math.Abs(vx);
+                vxx = Math.Abs(vxx);
             }
             if (label2.Top < 0)
             {
-                vyy = Math.Abs(vy);
+                vyy = Math.Abs(vyy);
             }
             if (label2.Right > ClientSize.Width)
             {
-                vxx = -Math.Abs(vx);
+                vxx = -Math.Abs(vxx);
             }
             if (label2.Bottom > ClientSize.Height)
             {
-                vyy = -Math.Abs(vy);
+                vyy = -Math.Abs(vyy);
             }
 
-            label3.Left += vx;
-            label3.Top += vy;
+            label3.Left += vxxx;
+            label3.Top += vyyy;
 
             if (label3.Left < 0)
             {
-                vxxx = Math.Abs(vx);
+                vxxx = Math.Abs(vxxx);
             }
             if (label3.Top < 0)
             {
-                vyyy = Math.Abs(vy);
+                vyyy = Math.Abs(vyyy);
             }
             if (label3.Right > ClientSize.Width)
             {
-                vxxx = -Math.Abs(vx);
+                vxxx = -Math.Abs(vxxx);
             }
             if (label3.Bottom > ClientSize.Height)
             {
-                vyyy = -Math.Abs(vy);
+                vyyy = -Math.Abs(vyyy);
             }
         }
 
