@@ -85,6 +85,14 @@ namespace ArrayPractice
                 vyy = -Math.Abs(vyy);
             }
 
+            if ((fpos.X >= label2.Left)
+                && (fpos.X < label2.Right)
+                && (fpos.Y >= label2.Top)
+                && (fpos.Y < label2.Bottom))
+            {
+                timer1.Enabled = false;
+            }
+
             label3.Left += vxxx;
             label3.Top += vyyy;
 
@@ -103,6 +111,14 @@ namespace ArrayPractice
             if (label3.Bottom > ClientSize.Height)
             {
                 vyyy = -Math.Abs(vyyy);
+            }
+
+            if ((fpos.X >= label3.Left)
+                && (fpos.X < label3.Right)
+                && (fpos.Y >= label3.Top)
+                && (fpos.Y < label3.Bottom))
+            {
+                timer1.Enabled = false;
             }
         }
 
