@@ -28,6 +28,10 @@ namespace ArrayPractice
 
             label1.Left = rand.Next(ClientSize.Width - label1.Width);
             label1.Top = rand.Next(ClientSize.Height - label1.Height);
+            label2.Left = rand.Next(ClientSize.Width - label1.Width);
+            label2.Top = rand.Next(ClientSize.Height - label1.Height);
+            label3.Left = rand.Next(ClientSize.Width - label1.Width);
+            label3.Top = rand.Next(ClientSize.Height - label1.Height);
         }
 
         private void timer1_Tick(object sender, EventArgs e)
