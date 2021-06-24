@@ -65,6 +65,7 @@ namespace ArrayPractice
             this.scoreLabel.Size = new System.Drawing.Size(62, 21);
             this.scoreLabel.TabIndex = 1;
             this.scoreLabel.Text = "Score 0";
+            this.scoreLabel.Click += new System.EventHandler(this.scoreLabel_Click);
             // 
             // label2
             // 
@@ -92,7 +93,7 @@ namespace ArrayPractice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(603, 349);
+            this.ClientSize = new System.Drawing.Size(770, 450);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.scoreLabel);
